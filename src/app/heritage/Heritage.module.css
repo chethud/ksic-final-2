@@ -207,8 +207,21 @@
 .heroLead {
   max-width: 38rem;
   margin: 22px 0 0;
-  font-size: clamp(1.12rem, 1.6vw, 1.35rem);
-  line-height: 1.5;
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.7 !important;
+  color: #3A2E24 !important;
+}
+
+.narrative .body {
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.7 !important;
+  color: #3A2E24 !important;
 }
 
 .heroMedia,

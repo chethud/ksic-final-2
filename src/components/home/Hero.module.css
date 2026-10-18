@@ -1,7 +1,7 @@
 .heroSection {
   position: relative;
-  height: 100svh;
-  min-height: 100svh;
+  height: calc(100svh - var(--assurance-strip-height));
+  min-height: calc(100svh - var(--assurance-strip-height));
   width: 100%;
   max-width: 100vw;
   display: flex;
@@ -170,7 +170,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 100svh;
+  min-height: 0;
   height: 100%;
   box-sizing: border-box;
 }
@@ -432,15 +432,15 @@
   }
 
   .heroSection {
-    height: 100svh;
-    min-height: 100svh;
+    height: calc(100svh - var(--assurance-strip-height));
+    min-height: calc(100svh - var(--assurance-strip-height));
     display: block;
     padding: 0;
   }
 
   .heroInnerContainer {
     width: 100%;
-    min-height: 100svh;
+    min-height: 0;
     height: 100%;
     max-width: none;
     margin: 0;

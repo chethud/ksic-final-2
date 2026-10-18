@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Kannada:wght@400;600&display=swap');
 
 :root {
-  /* Earth & Gold luxury palette */
+  /* Cream earth */
   --color-deep-brown: #3A2E24;
   --color-warm-beige: #EADCC8;
   --color-ivory: #FAF6EF;
@@ -9,9 +9,9 @@
   --color-silk-champagne: #E8D4B5;
   --color-soft-charcoal: #51473F;
   --color-white: #FFFFFF;
-  /* Zari darkened so gold text stays readable on ivory */
   --color-gold-ink: #7A6232;
   --color-brown-hover: #2A211A;
+  --assurance-strip-height: 112px;
 
   --color-bg-primary: var(--color-ivory);
   --color-bg-secondary: var(--color-warm-beige);
@@ -26,7 +26,6 @@
   --color-text-light: var(--color-white);
   --color-text-light-muted: var(--color-silk-champagne);
 
-  /* Existing accent tokens now resolve to the earth palette */
   --color-burgundy: var(--color-deep-brown);
   --color-burgundy-dark: var(--color-brown-hover);
   --color-burgundy-soft: rgba(58, 46, 36, 0.08);
@@ -93,6 +92,7 @@
 @media (max-width: 1080px) {
   :root {
     --site-header-offset: 96px;
+    --assurance-strip-height: 124px;
   }
 }
 

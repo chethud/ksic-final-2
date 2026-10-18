@@ -57,6 +57,102 @@
   color: rgba(250, 246, 239, 0.72);
 }
 
+.locator {
+  background: #FAF6EF;
+  border-bottom: 1px solid #E8D4B5;
+}
+
+.locatorInner {
+  padding: 36px 0 40px;
+}
+
+.locatorTitle {
+  margin: 0 0 18px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 500;
+  color: #3A2E24;
+}
+
+.locatorForm {
+  display: grid;
+  gap: 8px;
+  max-width: 36rem;
+}
+
+.locatorLabel {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #3A2E24;
+}
+
+.locatorForm input {
+  width: 100%;
+  min-height: 52px;
+  padding: 0 18px;
+  border: 1px solid #E8D4B5;
+  border-radius: 999px;
+  background: #FFFFFF;
+  color: #3A2E24;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 16px;
+}
+
+.locatorForm input:focus {
+  outline: 2px solid #3A2E24;
+  outline-offset: 2px;
+}
+
+.locatorResults {
+  display: grid;
+  gap: 10px;
+  margin: 22px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.locatorResult {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid #E8D4B5;
+  border-radius: 16px;
+  background: #EADCC8;
+  color: #3A2E24;
+  text-decoration: none;
+}
+
+.locatorResult:hover {
+  background: #3A2E24;
+  color: #FFFFFF;
+}
+
+.locatorResult strong,
+.locatorResult small {
+  display: block;
+}
+
+.locatorResult strong {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 500;
+}
+
+.locatorResult small {
+  margin-top: 4px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.locatorEmpty {
+  margin: 18px 0 0;
+  font-family: "Playfair Display", Georgia, serif;
+  color: #51473F;
+}
+
 .channels {
   margin: 0;
   padding: 0;

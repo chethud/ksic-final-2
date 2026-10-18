@@ -319,7 +319,8 @@
 }
 
 .dropdownLink:hover {
-  color: #3A2E24;
+  background: #3A2E24;
+  color: #FFFFFF;
 }
 
 .iconRow {
@@ -624,11 +625,16 @@
   }
 
   .drawerChildLink {
-    padding: 8px 0;
+    padding: 8px 12px;
     color: #3A2E24;
     font-family: "Playfair Display", Georgia, serif;
     font-size: 16px;
     text-decoration: none;
+  }
+
+  .drawerChildLink:hover {
+    background: #3A2E24;
+    color: #FFFFFF;
   }
 
   .drawerFooter {
